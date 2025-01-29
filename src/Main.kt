@@ -19,7 +19,7 @@ fun main() {
 
 
     // * Cambio de nombre para persona1.
-    val nombre = cambiarNombre(persona1)
+    cambiarNombre(persona1)
     println("\n*********************************************")
     println("Nombre: ${persona1.nombre}, Peso: ${persona1.peso}, Altura: ${persona1.altura}")
 

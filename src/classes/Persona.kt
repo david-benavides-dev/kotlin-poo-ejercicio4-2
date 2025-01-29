@@ -33,7 +33,7 @@ class Persona(var peso: Double, var altura: Double) {
      * @return Una cadena que incluye el nombre, peso, altura e IMC de la persona.
      */
     override fun toString(): String {
-        return "Nombre: $nombre, Peso: $peso, Altura: $altura, IMC: $imc"
+        return "Nombre: $nombre, Peso: $peso, Altura: $altura, IMC: ${"%.2f".format(imc)}"
     }
 
     /**
